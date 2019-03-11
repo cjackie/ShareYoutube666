@@ -29,6 +29,8 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile("com.zaxxer:HikariCP:2.7.1")
+    compile("mysql:mysql-connector-java:8.0.15")
     compile("org.springframework.boot:spring-boot-devtools")
     testCompile("junit:junit")
 }
